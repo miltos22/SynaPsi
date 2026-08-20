@@ -35,3 +35,7 @@ The individual components have prior art (see `PRIOR_ART.md`). This disclosure c
 ## On the Name
 
 Ψ is also used in the epistemic-honesty literature as the **Confidence-Evidence Ratio** (assertoric force proportional to evidential warrant). The name is an intentional fit: this system is built around honesty as its product.
+
+## Collaboration
+
+The author is open to professional collaboration with any individual, lab, or organization taking this idea seriously. If this architecture resonates and you want to build it properly, reach out: **miltiadiskd@gmail.com**
