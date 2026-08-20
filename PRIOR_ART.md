@@ -6,7 +6,7 @@ This document is part of the defensive disclosure. It maps each component of the
 
 | Component | Closest prior art | Status |
 |---|---|---|
-| Critic as a separately-trained expert contributing thinking to self-critique within the generation process | LLM-as-Judge (Zheng et al., 2023); self-recognition / self-preference bias (Panickssery et al., 2024); cross-model judging; self-refine / external-feedback reflection; reward models trained separately from the generator (RLHF); RL Tango (joint generator-verifier RL, NeurIPS 2025) | Established |
+| Critic expert(s) — separately-trained, contributing thinking to self-critique within the generation process | LLM-as-Judge (Zheng et al., 2023); self-recognition / self-preference bias (Panickssery et al., 2024); cross-model judging; self-refine / external-feedback reflection; reward models trained separately from the generator (RLHF); RL Tango (joint generator-verifier RL, NeurIPS 2025) | Established |
 | Verification is easier than generation; weak verifiers | Weaver / "Shrinking the Generation-Verification Gap" (Saad-Falcon et al., 2025); Hard2Verify (Salesforce, 2025); GenRM; "Mind the Gap" (self-correction fails) | Established |
 | Knowledge database oracle — tracks the model's overall knowledge, requested during generation | "Knowing What LLMs Know" (Kadavath et al., 2022); RAG knowledge bases; knowledge-probing literature | Established / partial |
 | Continuous affective / sentiment memory, routed | DAM-LLM "Dynamic Affective Memory Management" (2025); emotional-memory / Affective Field Theory implementations (2026); MemGPT/Letta, RAG-based memory | Established |
