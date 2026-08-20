@@ -2,7 +2,7 @@
 
 **Honest-by-architecture.** An integrated cognitive system for personal assistants, published as a defensive disclosure.
 
-**Thesis: the source of truth is never the generator.** The generator authors interpretation; decidable computation is routed to alternate architectures; an independently-trained critic audits; a continuous sentiment memory carries per-user experience without interpretation.
+**Thesis: the source of truth is never the generator.** The generator authors interpretation; decidable computation is routed to alternate architectures; an independently-trained critic audits; a continuous sentiment memory carries lived experience without interpretation.
 
 Date of disclosure: 2026-08-20
 
@@ -15,7 +15,7 @@ Date of disclosure: 2026-08-20
 3. **Alternate architectures** — heterogeneous, non-LLM computation engines (simulators, solvers, checkers; a calculator is one example) to which decidable spans are routed. The result of a routed span is part of the same cognitive process as the generator's own output.
 4. **Critic expert(s)** — one or more components specialized for critique, **trained separately from the generator**, so that their independence is structural rather than nominal. They are part of the thinking process itself: when the system self-criticizes, the critic expert(s) contribute their own thinking to the self-critique.
 5. **Knowledge oracle** — a knowledge database: a pre-compiled, separately-trained expert dedicated to keeping track of the model's overall knowledge, requested regularly during generation.
-6. **Continuous sentiment memory** — accumulates polarity over time. It stores no interpretations, only sentiment. The reasoning component interprets; the critic audits.
+6. **Continuous sentiment memory** — sentiment associations carried **in the model's weights, not the context**. It is structured like a list of ideas/subjects with sentiment values, but each association is a weight-level conditioning applied **in real time** when the reasoning process touches that subject — emulating lived experience rather than reading stored text. It stores no interpretations, only sentiment. The reasoning component interprets; the critic audits.
 7. **Value function** — epistemic honesty: **abstain > confidently-wrong**, everywhere.
 
 ## Governing Principles
