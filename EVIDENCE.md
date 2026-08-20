@@ -9,7 +9,7 @@ A weak, independently-run verifier (a paid DeepSeek flash model) was used to gra
 - Carwash trap: graded 40 with correct reasoning (a one-pass grader had scored it 70).
 - TV trap: graded 28 with correct reasoning (one-pass: 70).
 
-This supports the "verification is easier than generation" asymmetry and the value of a decoupled critic — the runtime counterpart of which is the SynaΨ critic expert.
+This supports the "verification is easier than generation" asymmetry and the value of a decoupled critic — the runtime counterpart of which is the SynaΨ critic expert, contributing critique thinking when the system self-criticizes.
 
 ## 2. Filtered distillate beats its own base
 
