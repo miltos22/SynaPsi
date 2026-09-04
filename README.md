@@ -4,7 +4,7 @@
 
 **Thesis: the source of truth is never the generator.** The generator authors interpretation; decidable computation is routed to alternate architectures; an independently-trained critic audits; a continuous sentiment memory carries lived experience without interpretation.
 
-Date of disclosure: 2026-08-20
+Date of disclosure: 2026-08-20. Temporarily paused research 2026-09-04 in favor of research on the more immediate benefit of chain of answers (https://github.com/miltos22/Chain-of-answers)
 
 ---
 
